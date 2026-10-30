@@ -1,0 +1,34 @@
+[
+  {
+    "temperature": 0.0,
+    "runs": 1,
+    "BLEU_mean": 4.452254489112697,
+    "chrF_mean": 22.23293471886752,
+    "BLEU_std": null,
+    "chrF_std": null
+  },
+  {
+    "temperature": 0.3,
+    "runs": 2,
+    "BLEU_mean": 2.589092202860911,
+    "chrF_mean": 21.33695942810632,
+    "BLEU_std": 0.9696401086919842,
+    "chrF_std": 0.2873079882734463
+  },
+  {
+    "temperature": 0.7,
+    "runs": 2,
+    "BLEU_mean": 2.9904488291212594,
+    "chrF_mean": 20.00061548084024,
+    "BLEU_std": 0.42199405784890565,
+    "chrF_std": 0.001065682443893932
+  },
+  {
+    "temperature": 1.0,
+    "runs": 2,
+    "BLEU_mean": 1.7137178988855903,
+    "chrF_mean": 18.947484423660352,
+    "BLEU_std": 0.6836162663170884,
+    "chrF_std": 0.7933401084067555
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "python": "3.13.16",
+  "packages": {
+    "torch": "2.11.0+cu130",
+    "transformers": "4.51.3",
+    "datasets": "3.5.0",
+    "accelerate": "1.6.0",
+    "tokenizers": "0.21.1",
+    "sentencepiece": "0.2.1",
+    "sacrebleu": "2.5.1",
+    "langdetect": "1.0.9",
+    "matplotlib": "3.10.0",
+    "huggingface-hub": "0.36.2",
+    "protobuf": "6.33.6"
+  },
+  "evaluation_devices": {
+    "Basic Transformer": "Tesla T4",
+    "mT5-small": "Tesla T4",
+    "LLaMA": "Tesla T4",
+    "Gemma": "Tesla T4"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "model": "Basic Transformer",
+  "split": "validation_subset",
+  "sentences": 20,
+  "subset_sha256": "0869a6462ba8f634f9ae47a012b542936159c33d5b823c715b310323a15d08e1",
+  "temperature": 0.0,
+  "decoding": "greedy",
+  "seed": 42,
+  "max_new_tokens": 128,
+  "BLEU": 3.763428367393875,
+  "chrF": 21.932795073301982,
+  "BLEU_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.5.1",
+  "chrF_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:0|space:no|version:2.5.1",
+  "translations": [
+    {
+      "id": "99843",
+      "english": "He ended by longing for it, like a child for a thing which it has been denied.",
+      "reference_french": "Il finissait par en avoir envie, de cette baleine, comme un enfant d'un objet qu'on lui interdit.",
+      "predicted_french": "Il se mit par par par des plus, comme un peu, qui a été été été été été de ne le n’est pas."
+    },
+    {
+      "id": "91509",
+      "english": "How painfully the hours passed, as I sometimes envisioned myself safe on shore with my companions, or, despite my better judgment, as I sometimes wished that some unforeseen circumstances would prevent Ned Land from carrying out his plans.",
+      "reference_french": "Quelles heures mauvaises s'écoulèrent ainsi, tantôt me voyant en sûreté, à terre, avec mes compagnons, tantôt souhaitant, en dépit de ma raison, que quelque circonstance imprévue empêchât la réalisation des projets de Ned Land.",
+      "predicted_french": "Que le heures, je vis, comme l'envais, je crois que je n'ai pas, et maçççante, que ma chair se faire, et je ne sais pas, à son mariée, comme je me permettrai à son mari mariée."
+    },
+    {
+      "id": "119266",
+      "english": "The crowd listened gapingly, feeling disturbed, when Étienne, who had watched the scene, jumped on to the fallen tree, keeping the old man at his side.",
+      "reference_french": "La foule écoutait, béante, prise d'un malaise, lorsque Étienne, qui suivait la scene, sauta sur l'arbre abattu et garda le vieillard a son côté.",
+      "predicted_french": "Le foule se jetait des des des des chiens, lorsque, lorsque, lorsque, qui avait pris la vieille vieille vieille vieille vieille vieille vieille vieille vieille vieille vieille vieille, se se se se mit à son air."
+    },
+    {
+      "id": "104438",
+      "english": "It being high-water, the entrance was closed by the sea.",
+      "reference_french": "La mer, haute en ce moment, en obstruait l'ouverture.",
+      "predicted_french": "Il me me me praaa le _Nautilus_________ le _Nautilus_ s'était par la mer."
+    },
+    {
+      "id": "103183",
+      "english": "Certainly, it would have been safer to have taken a different road than that which led straight from the corral to Granite House, but the cart would have met with great difficulties in moving under the trees.",
+      "reference_french": "Certes, mieux aurait valu prendre une route autre que celle qui allait directement du corral à Granite-House, mais le chariot eût éprouvé de grandes difficultés à se mouvoir sous bois.",
+      "predicted_french": "Celelel, il avait été, pour faire une route que la route s’en alla de Granite-House, mais le silence se fit fit entendre des yeux."
+    },
+    {
+      "id": "159",
+      "english": "Without speaking, we both stood looking at the shining village drying under the high wind.",
+      "reference_french": "Tous deux, sans rien dire, nous regardions le bourg luisant que séchait la bourrasque.",
+      "predicted_french": "Sans, en parlant, nous étions étions d'une des des des des des des tréées sur le _Nautilus______ le plus tardaitait."
+    },
+    {
+      "id": "82260",
+      "english": "Everything that is of any value among you, intellectually, the _Congregation_ flings to the criminal police; and society applauds.",
+      "reference_french": "Tout ce qui vaut quelque chose, chez vous, par l’esprit, la congrégation le jette à la police correctionnelle ; et la bonne compagnie applaudit.",
+      "predicted_french": "Tout se se se se se se se tint, vous pla de la bélooblissement de la M."
+    },
+    {
+      "id": "100979",
+      "english": "Why did he throw that paper into the sea?\"",
+      "reference_french": "Pourquoi a-t-il jeté ce document à la mer?",
+      "predicted_french": "Pourquoi le journal dans le journal dans le mer ?"
+    },
+    {
+      "id": "6854",
+      "english": "\"Your attendance upon her has been too much for you.",
+      "reference_french": "– Toutes ces fatigues ont excédé vos forces.",
+      "predicted_french": "-- Votre Majesté, sur sa conduite est trop trop trop trop."
+    },
+    {
+      "id": "49181",
+      "english": "As to Monsieur Bovary senior, who, heartily despising all these folk, had come simply in a frock-coat of military cut with one row of buttons—he was passing compliments of the bar to a fair young peasant.",
+      "reference_french": "Quant à M. Bovary père, qui, méprisant au fond tout ce monde-là, était venu simplement avec une redingote à un rang de boutons d’une coupe militaire, il débitait des galanteries d’estaminet à une jeune paysanne blonde.",
+      "predicted_french": "Quant à M. M. La Mole, qui avait pris pris ces mots mots mots en en en en en en m’avait d’un air de bénénénénénénénénénénénénéné, mais qui était un homme."
+    },
+    {
+      "id": "118166",
+      "english": "There might have been some excuse if they had been strict with her.",
+      "reference_french": "Et encore si on l'avait tenue a l'attache!",
+      "predicted_french": "Il s'était été un un un un gendi, comme on l'avait été avec ses yeux."
+    },
+    {
+      "id": "112118",
+      "english": "A soft carpet of moss and hepaticas luxuriously clothed the soil.",
+      "reference_french": "Un tapis de mousses et d'hépathiques revêtait moelleusement le sol.",
+      "predicted_french": "Un s'en s'en m'enveloppppppait et il s'approcha de la terre."
+    },
+    {
+      "id": "77906",
+      "english": "What, more than fifty crowns a year? A moment earlier I had just escaped from the greatest danger.",
+      "reference_french": "Quoi ! plus de cinquante écus par an ! un instant auparavant je m’étais tiré du plus grand danger.",
+      "predicted_french": "Qu'est-------ce que un instant, je l'avais vu de la plus tard de la plus tard que la plus grande grande grande grande grande grande grande."
+    },
+    {
+      "id": "67610",
+      "english": "Then he inspected them with alofty air, measuring the height of the rooms, sketching the plan in hisnote-book, with the passages, the arrangement of the exits, explainingthat he was a medical man and had many visitors.",
+      "reference_french": "Alors il visitait avecdes façons hautaines, mesurait la hauteur des plafonds, dessinait surson calepin le plan du logis, les communications, la disposition desissues, annonçait qu'il était médecin et qu'il recevait beaucoup.",
+      "predicted_french": "Puis il ne les les les les les les les les les plus de la nature, les gens de la naturels, les plus de ses amis, les pages, les les gants d'un air de l'un air, les aboiements, et, les abattes, les gants de l'avait été été été été été été été été été été de l'eau."
+    },
+    {
+      "id": "11713",
+      "english": "\"And how do people perform that ceremony of parting, Jane?",
+      "reference_french": "-- Et comment se pratique cette cérémonie de la séparation?",
+      "predicted_french": "-- Et les gens qu'il se tiens, que de Paris!"
+    },
+    {
+      "id": "96287",
+      "english": "\"Well!\" replied Pencroft, \"we don't know anything about it, captain!\"",
+      "reference_french": "«Bon! répondit Pencroff, nous n'en savons rien, monsieur Smith!",
+      "predicted_french": "-- Eh bien! répondit Pencroff, n'est pas, le capitaine, le capitaine!"
+    },
+    {
+      "id": "46931",
+      "english": "For an active, ambitious nature, like that of Milady, days not spent in climbing are inauspicious days. What word, then, can be found to describe the days which they occupy in descending?",
+      "reference_french": "Pour une nature agissante et ambitieuse comme celle de Milady, les jours qu'on n'occupe point à monter sont des jours néfastes; qu'on trouve donc le mot dont on doive nommer les jours qu'on emploie à descendre!",
+      "predicted_french": "Car, un quartier, des femmes, comme comme comme comme ces jours, ils ne sont pas telles, dans le mot de l’eau-dessus d’un coup d’un mot mot?"
+    },
+    {
+      "id": "14593",
+      "english": "\"I mean, on the contrary, to be busy.\"",
+      "reference_french": "-- Au contraire, je veux être active.",
+      "predicted_french": "-- Je suis, sur la journée, que je ne suis pas."
+    },
+    {
+      "id": "48182",
+      "english": "This noise acted upon her joy like the storm which awakens the sleeper in the midst of a happy dream; she grew pale and ran to the window, while Mme. Bonacieux, rising all in a tremble, supported herself upon her chair to avoid falling.",
+      "reference_french": "Ce bruit la tira de sa joie comme un bruit d'orage réveille au milieu d'un beau rêve; elle pâlit et courut à la fenêtre, tandis que Mme Bonacieux, se levant toute tremblante, s'appuyait sur sa chaise pour ne point tomber.",
+      "predicted_french": "Ce bruit bruit, sur sa joie de sa joie, comme comme l’eau, qui se se se se se tint, en bas, elle s’enfer sur la fenêtre, elle s’enfuir, en bas de son épée à son épée à son épée à son épée à son épée."
+    },
+    {
+      "id": "59084",
+      "english": "\"Stay, dear Brother Claude, I should not come to you, with any evil motive.",
+      "reference_french": "« Tenez, cher frère Claude, je ne m’adresserais pas à vous en mauvaise intention.",
+      "predicted_french": "-- Toutons, mon ami, je ne suis pas, je ne vous êtes avec vous en en tout tout cela."
+    }
+  ]
+}

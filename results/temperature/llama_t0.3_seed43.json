@@ -1,0 +1,136 @@
+{
+  "model": "LLaMA",
+  "split": "validation_subset",
+  "sentences": 20,
+  "subset_sha256": "0869a6462ba8f634f9ae47a012b542936159c33d5b823c715b310323a15d08e1",
+  "temperature": 0.3,
+  "decoding": "sampling",
+  "seed": 43,
+  "max_new_tokens": 128,
+  "BLEU": 10.073432049076207,
+  "chrF": 36.1647980075357,
+  "BLEU_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.5.1",
+  "chrF_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:0|space:no|version:2.5.1",
+  "translations": [
+    {
+      "id": "99843",
+      "english": "He ended by longing for it, like a child for a thing which it has been denied.",
+      "reference_french": "Il finissait par en avoir envie, de cette baleine, comme un enfant d'un objet qu'on lui interdit.",
+      "predicted_french": "Il l'a finalement laissé se sentir, comme un enfant pour quelque chose qui lui a été refusé."
+    },
+    {
+      "id": "91509",
+      "english": "How painfully the hours passed, as I sometimes envisioned myself safe on shore with my companions, or, despite my better judgment, as I sometimes wished that some unforeseen circumstances would prevent Ned Land from carrying out his plans.",
+      "reference_french": "Quelles heures mauvaises s'écoulèrent ainsi, tantôt me voyant en sûreté, à terre, avec mes compagnons, tantôt souhaitant, en dépit de ma raison, que quelque circonstance imprévue empêchât la réalisation des projets de Ned Land.",
+      "predicted_french": "Comment les heures se sont écoulées, comme je me souviens de temps en temps de me sentir en sécurité sur la rive avec mes compagnons, ou, malgré mon melhor jugement, de me souhaiter que certains circonstances inattendues empêchent Ned Land de mettre son plan en œuvre."
+    },
+    {
+      "id": "119266",
+      "english": "The crowd listened gapingly, feeling disturbed, when Étienne, who had watched the scene, jumped on to the fallen tree, keeping the old man at his side.",
+      "reference_french": "La foule écoutait, béante, prise d'un malaise, lorsque Étienne, qui suivait la scene, sauta sur l'arbre abattu et garda le vieillard a son côté.",
+      "predicted_french": "Les gens ont écouté attentivement, se sentant mal, lorsque Étienne, qui avait vu la scène, a sauté sur le tronc du arbre, gardant l'homme a son côté."
+    },
+    {
+      "id": "104438",
+      "english": "It being high-water, the entrance was closed by the sea.",
+      "reference_french": "La mer, haute en ce moment, en obstruait l'ouverture.",
+      "predicted_french": "Il y a une crue."
+    },
+    {
+      "id": "103183",
+      "english": "Certainly, it would have been safer to have taken a different road than that which led straight from the corral to Granite House, but the cart would have met with great difficulties in moving under the trees.",
+      "reference_french": "Certes, mieux aurait valu prendre une route autre que celle qui allait directement du corral à Granite-House, mais le chariot eût éprouvé de grandes difficultés à se mouvoir sous bois.",
+      "predicted_french": "Il aurait été plus sûr de prendre une route différente, celle qui menait directement du corral à Granite House, mais le char aurait rencontré de grandes difficultés pour se déplacer sous les arbres."
+    },
+    {
+      "id": "159",
+      "english": "Without speaking, we both stood looking at the shining village drying under the high wind.",
+      "reference_french": "Tous deux, sans rien dire, nous regardions le bourg luisant que séchait la bourrasque.",
+      "predicted_french": "Vivre"
+    },
+    {
+      "id": "82260",
+      "english": "Everything that is of any value among you, intellectually, the _Congregation_ flings to the criminal police; and society applauds.",
+      "reference_french": "Tout ce qui vaut quelque chose, chez vous, par l’esprit, la congrégation le jette à la police correctionnelle ; et la bonne compagnie applaudit.",
+      "predicted_french": "Ses idées, ses opinions, ses convictions, tout ce qui est de valeur parmi vous, intellectuellement, sont flingueurs aux forces de l'ordre criminels; et la société les apprécie."
+    },
+    {
+      "id": "100979",
+      "english": "Why did he throw that paper into the sea?\"",
+      "reference_french": "Pourquoi a-t-il jeté ce document à la mer?",
+      "predicted_french": "Quelques-uns"
+    },
+    {
+      "id": "6854",
+      "english": "\"Your attendance upon her has been too much for you.",
+      "reference_french": "– Toutes ces fatigues ont excédé vos forces.",
+      "predicted_french": "\"Vos absences concernent votre personne.\"\n\nNote: I've translated the text as close as possible to the original English phrase, while maintaining the same grammatical structure and word order."
+    },
+    {
+      "id": "49181",
+      "english": "As to Monsieur Bovary senior, who, heartily despising all these folk, had come simply in a frock-coat of military cut with one row of buttons—he was passing compliments of the bar to a fair young peasant.",
+      "reference_french": "Quant à M. Bovary père, qui, méprisant au fond tout ce monde-là, était venu simplement avec une redingote à un rang de boutons d’une coupe militaire, il débitait des galanteries d’estaminet à une jeune paysanne blonde.",
+      "predicted_french": "Comme Monsieur Bovary senior, qui, avec un cœur pleinement dégoûté par tout cela, venait simplement en tenue militaire de coupe militaire avec une rangée de boutons—il passait des compliments au bar à une jeune paysanne devenue belle."
+    },
+    {
+      "id": "118166",
+      "english": "There might have been some excuse if they had been strict with her.",
+      "reference_french": "Et encore si on l'avait tenue a l'attache!",
+      "predicted_french": "Les parents étaient-ils trop rigoureux ?\n\n(Note: This translation is in the formal and polite version of the French language, which is often used in written communication.)"
+    },
+    {
+      "id": "112118",
+      "english": "A soft carpet of moss and hepaticas luxuriously clothed the soil.",
+      "reference_french": "Un tapis de mousses et d'hépathiques revêtait moelleusement le sol.",
+      "predicted_french": "Un tapis doux de feuilles de mosses et de hepaticas luxuriantement vêtus de la terre."
+    },
+    {
+      "id": "77906",
+      "english": "What, more than fifty crowns a year? A moment earlier I had just escaped from the greatest danger.",
+      "reference_french": "Quoi ! plus de cinquante écus par an ! un instant auparavant je m’étais tiré du plus grand danger.",
+      "predicted_french": "Quelqu'un de plus de cinquante éclairs par an ? Un instant plus tôt, j'étais sorti de la plus grande menace."
+    },
+    {
+      "id": "67610",
+      "english": "Then he inspected them with alofty air, measuring the height of the rooms, sketching the plan in hisnote-book, with the passages, the arrangement of the exits, explainingthat he was a medical man and had many visitors.",
+      "reference_french": "Alors il visitait avecdes façons hautaines, mesurait la hauteur des plafonds, dessinait surson calepin le plan du logis, les communications, la disposition desissues, annonçait qu'il était médecin et qu'il recevait beaucoup.",
+      "predicted_french": "Voici la traduction en français :\n\nIl les examina avec un air d'assurance, mesurant la hauteur des salles, en dessinant le plan dans son livre d'écriture, avec les passages, l'arrangement des sorties, expliquant qu'il était un médecin et qu'il avait de nombreux visiteurs."
+    },
+    {
+      "id": "11713",
+      "english": "\"And how do people perform that ceremony of parting, Jane?",
+      "reference_french": "-- Et comment se pratique cette cérémonie de la séparation?",
+      "predicted_french": "Et comment les gens procèdent-ils à cette cérémonie de séparation ?"
+    },
+    {
+      "id": "96287",
+      "english": "\"Well!\" replied Pencroft, \"we don't know anything about it, captain!\"",
+      "reference_french": "«Bon! répondit Pencroff, nous n'en savons rien, monsieur Smith!",
+      "predicted_french": "\"Excusez-moi, mais nous ne savons rien sur cela, capitaine !\""
+    },
+    {
+      "id": "46931",
+      "english": "For an active, ambitious nature, like that of Milady, days not spent in climbing are inauspicious days. What word, then, can be found to describe the days which they occupy in descending?",
+      "reference_french": "Pour une nature agissante et ambitieuse comme celle de Milady, les jours qu'on n'occupe point à monter sont des jours néfastes; qu'on trouve donc le mot dont on doive nommer les jours qu'on emploie à descendre!",
+      "predicted_french": "Les jours qui occupent le bas"
+    },
+    {
+      "id": "14593",
+      "english": "\"I mean, on the contrary, to be busy.\"",
+      "reference_french": "-- Au contraire, je veux être active.",
+      "predicted_french": "\"Je signifie, on le contraire, être occupé.\""
+    },
+    {
+      "id": "48182",
+      "english": "This noise acted upon her joy like the storm which awakens the sleeper in the midst of a happy dream; she grew pale and ran to the window, while Mme. Bonacieux, rising all in a tremble, supported herself upon her chair to avoid falling.",
+      "reference_french": "Ce bruit la tira de sa joie comme un bruit d'orage réveille au milieu d'un beau rêve; elle pâlit et courut à la fenêtre, tandis que Mme Bonacieux, se levant toute tremblante, s'appuyait sur sa chaise pour ne point tomber.",
+      "predicted_french": "Cette bruit l'actua comme unorage qui réveille le sommeil dans le milieu d'une rêverie joyeuse; elle s'assoma et courut vers la fenêtre, tandis que Mme. Bonacieux, se levant tout en tremble, se tenait debout sur son siège pour éviter de chutter.\n\n(Note: I've translated the text as closely as possible to the original English, but please note that the nuances of the original sentence may be lost in translation.)"
+    },
+    {
+      "id": "59084",
+      "english": "\"Stay, dear Brother Claude, I should not come to you, with any evil motive.",
+      "reference_french": "« Tenez, cher frère Claude, je ne m’adresserais pas à vous en mauvaise intention.",
+      "predicted_french": "\"Reste, cher frère Claude, je ne viens pas à toi, avec aucun mauvais but.\""
+    }
+  ]
+}

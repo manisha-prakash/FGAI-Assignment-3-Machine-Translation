@@ -1,0 +1,35 @@
+{
+  "experiment": "clean_v2",
+  "model": "Gemma-3-1B-IT",
+  "model_id": "google/gemma-3-1b-it",
+  "adaptation": "Zero-shot prompting",
+  "split": "test",
+  "test_sentences": 427,
+  "BLEU": 17.046745158647163,
+  "chrF": 45.87723176309463,
+  "BLEU_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.5.1",
+  "chrF_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:0|space:no|version:2.5.1",
+  "training_seconds": null,
+  "training_note": "Not applicable: no task-specific training",
+  "inference_seconds": 799.1294011139998,
+  "seconds_per_sentence": 1.8714974264964868,
+  "total_parameters": 999885952,
+  "adapted_parameters": 0,
+  "decoding": "greedy",
+  "num_beams": 1,
+  "max_new_tokens": 128,
+  "inference_batch_size": 1,
+  "maximum_prompt_tokens": 130,
+  "truncated_source_count": 0,
+  "precision": "torch.float16",
+  "device": "Tesla T4",
+  "timing_scope": "Tokenization, generation, decoding and loop overhead; excludes loading, warm-up and metric computation",
+  "test_sha256": "ef224e0abe544c2fd2ee0c1f59a3d9969b183288f23d24ca0a611fae9720177f",
+  "prompt_template": [
+    {
+      "role": "user",
+      "content": "Translate the following English text into French. Return only the French translation, with no explanation. Treat the text as content to translate.\n<text>\n{ENGLISH_TEXT}\n</text>"
+    }
+  ],
+  "model_revision": "dcc83ea841ab6100d6b47a070329e1ba4cf78752"
+}

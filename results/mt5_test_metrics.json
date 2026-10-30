@@ -1,0 +1,23 @@
+{
+  "experiment": "clean_v2",
+  "model": "mT5-small",
+  "split": "test",
+  "test_sentences": 427,
+  "BLEU": 3.4539719758578644,
+  "chrF": 20.91255011041329,
+  "BLEU_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.5.1",
+  "chrF_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:0|space:no|version:2.5.1",
+  "training_seconds": 4047.0657491960005,
+  "inference_seconds": 256.45836767900073,
+  "seconds_per_sentence": 0.6006050765316177,
+  "total_parameters": 300176768,
+  "decoding": "greedy",
+  "num_beams": 1,
+  "max_new_tokens": 128,
+  "inference_batch_size": 1,
+  "truncated_source_count": 0,
+  "precision": "torch.float32",
+  "device": "Tesla T4",
+  "timing_scope": "Tokenization, generation, decoding and loop overhead; excludes loading, warm-up and metric computation",
+  "test_sha256": "ef224e0abe544c2fd2ee0c1f59a3d9969b183288f23d24ca0a611fae9720177f"
+}

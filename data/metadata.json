@@ -1,0 +1,44 @@
+{
+  "dataset": "Helsinki-NLP/opus_books",
+  "source_url": "https://huggingface.co/datasets/Helsinki-NLP/opus_books",
+  "language_pair": "English to French",
+  "original_pairs": 127085,
+  "cleaned_pairs": 117789,
+  "split_sizes": {
+    "train": 4175,
+    "validation": 420,
+    "test": 427
+  },
+  "random_seed": 42,
+  "preprocessing": [
+    "Unicode NFC normalization",
+    "Whitespace normalization",
+    "Keep 3–60 words in each language",
+    "Remove duplicate English or French sentences",
+    "Shuffle and split after deduplication"
+  ],
+  "limitation": "Sentence-level splits are not book-disjoint. Related passages may appear across splits.",
+  "experiment": "clean_v2",
+  "language_filter": {
+    "library": "langdetect==1.0.9",
+    "detector_seed": 42,
+    "rule": "Source en and target fr, each with score >= 0.90",
+    "counts": {
+      "train": {
+        "kept": 4175,
+        "excluded": 825
+      },
+      "validation": {
+        "kept": 420,
+        "excluded": 80
+      },
+      "test": {
+        "kept": 427,
+        "excluded": 73
+      }
+    },
+    "split_membership_preserved": true,
+    "automatic_swapping": false
+  },
+  "filter_limitations": "Language detection is imperfect; scores are not calibrated probabilities. Filtering may exclude valid short or ambiguous sentences and does not verify translation alignment."
+}
